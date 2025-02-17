@@ -1,0 +1,73 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fcf7f8;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #928dab;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fcf7f8;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", "Roboto", sans-serif;
+  background-color: #fcf7f8;
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+  background-color: #928dab;
+  color: #fcf7f8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+span {
+  color: #7c00fe;
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  background-color: #928dab;
+  padding: 1rem;
+  color: #fff;
+  font-size: 0.9em;
+  box-shadow: 0px 0 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1024px) {
+  header {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
